@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="@drawable/badmin"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:src="@drawable/logo1"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register Form Badmonton"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="#F8F7F7"
+        android:layout_marginBottom="10dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="NamaPemain..."
+        android:id="@+id/username"
+        android:background="@drawable/edittextbg"
+        android:textSize="20dp"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#F8F7F7"
+        android:paddingLeft="20dp"
+        android:layout_marginBottom="20dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Password..."
+        android:id="@+id/Password"
+        android:background="@drawable/edittextbg"
+        android:textSize="20dp"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#F8F7F7"
+        android:paddingLeft="20dp"
+        android:layout_marginBottom="20dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Confirm Password..."
+        android:id="@+id/conn"
+        android:background="@drawable/edittextbg"
+        android:textSize="20dp"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#F8F7F7"
+        android:paddingLeft="20dp"
+        android:layout_marginBottom="20dp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Sing Up"
+        android:background="@drawable/button"
+        android:layout_marginTop="10dp"
+        android:id="@+id/singup"
+        android:textSize="15dp"
+        android:textColor="#FFF"
+        android:layout_marginBottom="10dp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Have Accound"
+        android:background="@drawable/button"
+        android:layout_marginTop="10dp"
+        android:id="@+id/haveaccound"
+        android:textSize="15dp"
+        android:textColor="#FFF"
+        android:layout_marginBottom="10dp"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Repassword"
+        android:background="@drawable/button"
+        android:layout_marginTop="10dp"
+        android:id="@+id/repassword"
+        android:textSize="15dp"
+        android:textColor="#FFF"
+        android:layout_marginBottom="10dp"/>
+
+</LinearLayout>
